@@ -1,0 +1,38 @@
+
+A full-stack **social media application** built with the **MERN stack** (MongoDB, Express, React, Node.js). It includes features like user authentication, posting, commenting, following, and more — all in a clean, scalable architecture.
+
+---
+
+## 🚀 Features
+
+### 🔐 Authentication
+- Login / Sign-up
+- Firebase for email/password authentication
+- Email verification via **Nodemailer**
+
+### 📝 Posts
+- Create, edit, and delete posts
+- Like/unlike posts
+- View user feed
+
+### 💬 Comments
+- Add, edit, and delete comments
+- Reply to comments (nested replies)
+- Like/unlike comments
+
+### 👥 Social Features
+- Follow / unfollow users
+- View user profiles
+- See followers/following list
+
+---
+
+## 🛠️ Tech Stack
+
+| Frontend        | Backend         | Other              |
+|-----------------|------------------|---------------------|
+| React           | Node.js + Express| Firebase Auth       |
+| Redux Toolkit   | MongoDB + Mongoose | Nodemailer (email) |
+| React Router    | JWT Auth (optional) | Cloudinary (optional for images) |
+
+---
