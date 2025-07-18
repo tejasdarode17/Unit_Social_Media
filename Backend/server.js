@@ -43,7 +43,6 @@ app.listen(PORT, () => {
   dbConnector();
   cloudinaryConfig()
   console.log("Running");
-  
 })
 
 
