@@ -1,0 +1,55 @@
+  .create-post {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 3px solid #fff;
+    border-right: 3px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+
+/* //shimmer  */
+
+.myAnimation {
+  animation-name: shimmer;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(230, 230, 230, 1) 60%,
+    rgba(181, 177, 177, 1) 100%
+  );
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+}
+
+@keyframes shimmer {
+  from {
+    background-position: -500px 0;
+  }
+  to {
+    background-position: 500px 0;
+  }
+}
+
+.image-shimmer {
+  color: grey;
+  display: inline-block;
+  mask: linear-gradient(-60deg, #000 30%, #0005, #000 70%) right/350% 100%;
+  animation: shimmer 2.5s infinite;
+  font-size: 50px;
+  max-width: 200px;
+}
+
+

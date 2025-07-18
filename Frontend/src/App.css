@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+body  {
+    background: #F2F4F7;
+}
+
+.logo {
+    mix-blend-mode: multiply;
+}
+
+.bg-color {
+    background-color: #ff11a4;
+}
+
+.text-Color{
+    color: #ff11a4;
+}
