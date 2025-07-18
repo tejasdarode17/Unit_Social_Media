@@ -32,4 +32,4 @@ A full-stack **social media application** built with the **MERN stack** (MongoDB
 |-----------------|------------------|---------------------|
 | React           | Node.js + Express| Firebase Auth       |
 | Redux Toolkit   | MongoDB + Mongoose | Nodemailer (email) |
-| React Router    | JWT Auth (optional) | Cloudinary (optional for images) |   create like this 
+| React Router    | JWT               | Cloudinary | 
